@@ -1,16 +1,80 @@
-# React + Vite
+# React Habit Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Habit Tracker Dashboard built with **React** and **Vite**.
 
-Currently, two official plugins are available:
+This project was created as part of the **NewTech Coding Bootcamp** to practice React fundamentals, including state management with `useState`, controlled forms, immutable state updates, derived state, and event handling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Add new habits
+- Mark habits as completed
+- Remove habits
+- Live streak counter
+- Progress summary banner
+- Progress bar
+- Responsive dashboard
+- Built with reusable React components
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS3
+
+---
+
+## Project Structure
+
+```text
+src/
+│── App.jsx
+│── App.css
+│── main.jsx
+│── index.css
+│
+├── components/
+│   ├── HabitForm.jsx
+│   ├── HabitCard.jsx
+│   └── SummaryBanner.jsx
+```
+
+---
+
+## Installation
+
+```bash
+npm install
+```
+
+## Run the project
+
+```bash
+npm run dev
+```
+
+
+## What I Learned
+
+- Managing state with `useState`
+- Creating controlled form inputs
+- Updating arrays immutably
+- Rendering dynamic lists with unique IDs
+- Passing data through props
+- Conditional rendering
+- Building reusable React components
+
+---
+
+## Screenshot
+
+![Habit Tracker Dashboard](/Habit_Tracker.jpg)
+---
+
+## Author
+
+**Nagham Daban**
