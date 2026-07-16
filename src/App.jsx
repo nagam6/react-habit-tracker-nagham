@@ -52,7 +52,7 @@ function App() {
 
       <SummaryBanner habits={habits} />
 
-      <div className="habit-list">
+      <section className="habit-list">
         {habits.map((habit) => (
           <HabitCard
             key={habit.id}
@@ -61,7 +61,9 @@ function App() {
             onRemove={removeHabit}
           />
         ))}
-      </div>
+
+        {!habits.length && <p className="empty">No habits yet - Add one!</p>}
+      </section>
     </main>
   );
 }
